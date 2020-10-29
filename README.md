@@ -28,7 +28,7 @@ for each cluster:
             n=0
 
         retrieve nth questions
-        recommend.append(kth similar of the questions retrieved)
+        recommend.append(kth similar question with the questions retrieved)
         n+=1
         corresponding quota-=1
 return recommend
