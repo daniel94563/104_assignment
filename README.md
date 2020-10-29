@@ -31,6 +31,7 @@ for each cluster:
         recommend.append(kth similar of the questions retrieved)
         n+=1
         corresponding quota-=1
+return recommend
     
 ```
 
